@@ -19,7 +19,7 @@ diabetes_dataset = pd.read_csv('dogDiabetesData.csv')
 heart_dataset = pd.read_csv('dogHeartData.csv')
 
 
-st.markdown(f'<a href="javascript:window.history.back();">Back to Landing Page</a>', unsafe_allow_html=True)
+# st.markdown(f'<a href="javascript:window.history.back();">Back to Landing Page</a>', unsafe_allow_html=True)
 
 with st.sidebar:
     selected = option_menu('Dog Disease Prediciton System',
